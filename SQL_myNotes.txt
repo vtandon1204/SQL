@@ -1,0 +1,4 @@
+SQL - Structured Query Language 
+(domain specific language to interact with databse)
+
+RDBMS --> MySQL, Oracle, MS access
