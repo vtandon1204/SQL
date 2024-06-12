@@ -1,4 +1,5 @@
 SQL - Structured Query Language 
-(domain specific language to interact with databse)
+(domain specific language to interact with database)
 
-RDBMS --> MySQL, Oracle, MS access
+RDBMS --> MySQL, Oracle, MS access (software which uses SQL to fetch the data)
+-> CRUD (create, read, update, delete) operations can be performed on the database
