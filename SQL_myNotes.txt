@@ -1,5 +1,39 @@
 SQL - Structured Query Language 
-(domain specific language to interact with database)
+(domain specific language to interact (access and manipulate) with database)
 
 RDBMS --> MySQL, Oracle, MS access (software which uses SQL to fetch the data)
 -> CRUD (create, read, update, delete) operations can be performed on the database
+-> data in RDBMS is stores in database objects called tables which is a collection of related data entries
+-> Columns: fields/attributes ; Rows: record
+
+--> Important SQL Commands/Statements/Clause
+* SELECT - extracts data from a database
+* SELECT DISTINCT - extracts different type of data from a database  
+
+* WHERE - extract only those records that fulfill a specified condition
+Operator	Description	
+=	        Equal	
+>	        Greater than	
+<	        Less than	
+>=	        Greater than or equal	
+<=	        Less than or equal	
+<>	        Not equal.      Note: In some versions of SQL this operator may be written as !=	
+BETWEEN	    Between a certain range	
+LIKE	    Search for a pattern	
+IN	        To specify multiple possible values for a column
+
+
+* ORDER BY - used to sort the result-set in ascending(ASC)(by default) or descending order(DESC)
+
+* UPDATE - updates data in a database
+* DELETE - deletes data from a database
+* INSERT INTO - inserts new data into a database
+* CREATE DATABASE - creates a new database
+* ALTER DATABASE - modifies a database
+* CREATE TABLE - creates a new table
+* ALTER TABLE - modifies a table
+* DROP TABLE - deletes a table
+* CREATE INDEX - creates an index (search key)
+* DROP INDEX - deletes an index
+
+
